@@ -1,0 +1,14 @@
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\bin\Debug\net7.0\02.exe
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\bin\Debug\net7.0\02.deps.json
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\bin\Debug\net7.0\02.runtimeconfig.json
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\bin\Debug\net7.0\02.dll
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\bin\Debug\net7.0\02.pdb
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\obj\Debug\net7.0\02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\obj\Debug\net7.0\02.AssemblyInfoInputs.cache
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\obj\Debug\net7.0\02.AssemblyInfo.cs
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\obj\Debug\net7.0\02.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\obj\Debug\net7.0\02.dll
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\obj\Debug\net7.0\refint\02.dll
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\obj\Debug\net7.0\02.pdb
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\obj\Debug\net7.0\02.genruntimeconfig.cache
+C:\Users\pedro\Workspace\puc_ads\aeds\recursividade\02\obj\Debug\net7.0\ref\02.dll
