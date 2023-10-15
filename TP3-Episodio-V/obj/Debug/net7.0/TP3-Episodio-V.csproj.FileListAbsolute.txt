@@ -1,0 +1,14 @@
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\bin\Debug\net7.0\TP3-Episodio-V.exe
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\bin\Debug\net7.0\TP3-Episodio-V.deps.json
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\bin\Debug\net7.0\TP3-Episodio-V.runtimeconfig.json
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\bin\Debug\net7.0\TP3-Episodio-V.dll
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\bin\Debug\net7.0\TP3-Episodio-V.pdb
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\obj\Debug\net7.0\TP3-Episodio-V.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\obj\Debug\net7.0\TP3-Episodio-V.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\obj\Debug\net7.0\TP3-Episodio-V.AssemblyInfo.cs
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\obj\Debug\net7.0\TP3-Episodio-V.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\obj\Debug\net7.0\TP3-Episodio-V.dll
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\obj\Debug\net7.0\refint\TP3-Episodio-V.dll
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\obj\Debug\net7.0\TP3-Episodio-V.pdb
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\obj\Debug\net7.0\TP3-Episodio-V.genruntimeconfig.cache
+C:\Users\fiscal4\Workspace\puc_aeds\TP3-Episodio-V\obj\Debug\net7.0\ref\TP3-Episodio-V.dll

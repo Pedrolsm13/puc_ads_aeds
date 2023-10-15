@@ -1,64 +1,77 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Program
 {
     public static void Main(string[] args)
     {
         int n = int.Parse(Console.ReadLine());
-        Personagem[] P = new Personagem[n];
+        List<Personagem> P = new List<Personagem>();
+        Stack<string> pilha = new Stack<string>();
+        Queue<string> fila = new Queue<string>();
+
         for (int i = 0; i < n; i++)
         {
             string linhaP = Console.ReadLine();
-            P[i] = new Personagem(linhaP);
+            P.Add(new Personagem(linhaP));
         }
-
         int m = int.Parse(Console.ReadLine());
+
         for (int j = 0; j < m; j++)
         {
             string linhar = Console.ReadLine();
             string[] v = linhar.Split(" ");
             
-            if (v[0] == "altura")
-            {
-                int c = 0;
-                int vi = int.Parse(v[1]);
-                int vf = int.Parse(v[2]);
-                foreach (Personagem a in P)
-                {
-                    if (a.altura >= vi && a.altura <= vf)
-                    {
-                        c++;
-                    }
-                }
-                Console.WriteLine($"{v[0]} {c}");
+            if (v[0] == "PesqBin"){
+                int i = 0, esq = 0, dir = P.Count-1;
+                do {
+                    i = (esq + dir ) / 2;
+                    if (P[i].nome.CompareTo(v[1]) < 0)
+                    esq = i + 1;
+                else if (P[i].nome.CompareTo(v[1]) > 0)
+                    dir = i - 1;
+                } 
+                while ( (P[i].nome != v[1]) && (esq <= dir ) ) ;
+                if (P[i].nome == v[1])
+                    Console.WriteLine($"{v[1]} Ok");
+                else
+                    Console.WriteLine($"{v[1]} Nada");
             }
-
-            else if (v[0] == "peso")
-            {
-                int c = 0;
-                double pi = double.Parse(v[1]);
-                double pf = double.Parse(v[2]);
-                foreach (Personagem b in P)
-                {
-                    if (b.peso >= pi && b.peso <= pf)
-                    {
-                        c++;
-                    }
+            else if (v[0] == "Push"){
+                for(int i = 0; i < P.Count; i++){
+                    if(P[i].homeworld == v[1])
+                        pilha.Push(P[i].nome);
                 }
-                Console.WriteLine($"{v[0]} {c}");
             }
-            
-            else
-            {
-                int c = 0;
-                foreach (Personagem d in P)
-                {
-                    if (d.getCaracteristica(v[0], v[1]))
-                    {
-                        c++;
-                    }
+            else if (v[0] == "Pop"){
+                int qtds = 0;
+                if (v[1] == "all")
+                    qtds = pilha.Count;
+                else
+                    qtds = int.Parse(v[1]);
+                for(int i = 0; i < qtds; i++){
+                    string nome_pers = pilha.Peek();
+                    Console.WriteLine(nome_pers);
+                    pilha.Pop();
                 }
-                Console.WriteLine($"{v[0]} {c}");
+            }
+            else if (v[0] == "Enqueue"){
+                for(int i = 0; i < P.Count; i++){
+                    if(P[i].homeworld == v[1])
+                        fila.Enqueue(P[i].nome);
+                }
+            }
+            else if (v[0] == "Dequeue"){
+                int qtds = 0;
+                if (v[1] == "all")
+                    qtds = fila.Count;
+                else
+                    qtds = int.Parse(v[1]);
+                for(int i = 0; i < qtds; i++){
+                    string nome_pers = fila.Peek();
+                    Console.WriteLine(nome_pers);
+                    fila.Dequeue();
+                }
             }
         }
     }
@@ -121,5 +134,5 @@ class Personagem
             resp = true;
         }
         return resp;
-    }
+    }   
 }
