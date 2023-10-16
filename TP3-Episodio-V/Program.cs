@@ -6,7 +6,7 @@ class Program
     public static void Main(string[] args)
     {
         int n = int.Parse(Console.ReadLine());
-        List<Personagem> P = new List<Personagem>();
+        List<Personagem> P = new List<Personagem>(n);
         Stack<string> pilha = new Stack<string>();
         Queue<string> fila = new Queue<string>();
 
@@ -19,17 +19,16 @@ class Program
 
         for (int j = 0; j < m; j++)
         {
-            string linhar = Console.ReadLine();
-            string[] v = linhar.Split(" ");
+            string[] v = Console.ReadLine().Split(";");
             
             if (v[0] == "PesqBin"){
                 int i = 0, esq = 0, dir = P.Count-1;
                 do {
                     i = (esq + dir ) / 2;
                     if (P[i].nome.CompareTo(v[1]) < 0)
-                    esq = i + 1;
-                else if (P[i].nome.CompareTo(v[1]) > 0)
-                    dir = i - 1;
+                        esq = i + 1;
+                    else if (P[i].nome.CompareTo(v[1]) > 0)
+                        dir = i - 1;
                 } 
                 while ( (P[i].nome != v[1]) && (esq <= dir ) ) ;
                 if (P[i].nome == v[1])
@@ -43,6 +42,7 @@ class Program
                         pilha.Push(P[i].nome);
                 }
             }
+
             else if (v[0] == "Pop"){
                 int qtds = 0;
                 if (v[1] == "all")
