@@ -1,0 +1,15 @@
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\bin\Debug\net7.0\star trek.exe
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\bin\Debug\net7.0\star trek.deps.json
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\bin\Debug\net7.0\star trek.runtimeconfig.json
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\bin\Debug\net7.0\star trek.dll
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\bin\Debug\net7.0\star trek.pdb
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\obj\Debug\net7.0\star trek.csproj.AssemblyReference.cache
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\obj\Debug\net7.0\star trek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\obj\Debug\net7.0\star trek.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\obj\Debug\net7.0\star trek.AssemblyInfo.cs
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\obj\Debug\net7.0\star trek.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\obj\Debug\net7.0\star trek.dll
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\obj\Debug\net7.0\refint\star trek.dll
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\obj\Debug\net7.0\star trek.pdb
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\obj\Debug\net7.0\star trek.genruntimeconfig.cache
+C:\Users\fiscal4\Workspace\puc_aeds\star trek\obj\Debug\net7.0\ref\star trek.dll
