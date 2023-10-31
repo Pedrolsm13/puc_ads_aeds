@@ -68,11 +68,11 @@ namespace AED
         public void InsereAntesDe(Object ElementoAInserir, Object Elemento){
             if(Count > 0){
                 CCelula aux = First;
-                while(aux.Prox != null && aux.Prox.Item != Elemento){
+                while(aux.Prox != null && !aux.Prox.Item.Equals(Elemento)){
                     aux = aux.Prox;
                 }
                 Console.WriteLine("[" + aux.Item + "]->");
-                if(aux.Prox != null && aux.Prox.Item == Elemento){
+                if(aux.Prox != null && aux.Prox.Item.Equals(Elemento)){
                     aux.Prox = new CCelula(ElementoAInserir, aux.Prox);
                     Count++;
                 }
