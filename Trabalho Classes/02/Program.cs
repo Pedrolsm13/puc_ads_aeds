@@ -18,6 +18,7 @@ namespace AED
                 Lista.InsereFim(elemento);
             }
             Lista.ImprimeFormatoLista();
+            Lista.imprimeUltimo();
             
             //insere mais um objeto
             object ElementoAInserir = Console.ReadLine();
@@ -25,7 +26,30 @@ namespace AED
             object Elementoref = Console.ReadLine();
             Lista.InsereAntesDe(ElementoAInserir, Elementoref);
             Lista.ImprimeFormatoLista();
+
             Lista.imprimeQuantidade();
+
+            //insere mais um objeto
+            object ElementoAInserir1 = Console.ReadLine();
+            //referencia do objeto para inserção
+            object Elementoref1 = Console.ReadLine();
+
+            Lista.InsereDepoisDe(ElementoAInserir1, Elementoref1);
+            
+            Lista.ImprimeFormatoLista();
+            Lista.imprimeQuantidade();
+            Lista.imprimeUltimo();
+
+            //insere mais um objeto
+            object ElementoAInserir2 = Console.ReadLine();
+            //referencia do objeto para inserção
+            object Elementoref2 = Console.ReadLine();
+
+            Lista.InsereDepoisDe(ElementoAInserir2, Elementoref2);
+            
+            Lista.ImprimeFormatoLista();
+            Lista.imprimeQuantidade();
+            Lista.imprimeUltimo();
         }
     }
     class CCelula
@@ -86,16 +110,43 @@ namespace AED
                 Console.WriteLine("Lista vazia.");
             }
         }
-        public void ImprimeFormatoLista()
-        {
+        public void InsereDepoisDe(Object ElementoAInserir, Object Elemento){
+            //confere lista vazia
+            if(Count > 0){
+                CCelula aux = First.Prox;//Pedro Assuncao auxiliou, pois nao pode fazer comparacao nula no equals
+                //encontra a posicao para inserir
+                while(aux != null && !aux.Item.Equals(Elemento)){
+                    aux = aux.Prox;
+                }
+                //se encontrou a posicao insere
+                if(aux.Item.Equals(Elemento)){
+                    if (aux.Prox != null)
+                        aux.Prox = new CCelula(ElementoAInserir, aux.Prox);
+                    else{
+                        Last.Prox = new CCelula(ElementoAInserir);
+                        Last = Last.Prox;
+                    }
+                    Count++;
+                }
+                else{
+                    Console.WriteLine("Elemento não encontrado na lista.");
+                }
+            }
+            else{
+                Console.WriteLine("Lista vazia.");
+            }
+        }
+        public void ImprimeFormatoLista(){
             Console.Write("[/]->");
             for (CCelula aux = First.Prox; aux != null; aux = aux.Prox)
                 Console.Write("[" + aux.Item + "]->");
             Console.WriteLine("null");
         }
-        public void imprimeQuantidade()
-        {
+        public void imprimeQuantidade(){
             Console.WriteLine($"quantidade = {Count}");
+        }
+        public void imprimeUltimo(){
+            Console.WriteLine($"ultimo = [" + Last.Item + "]->");
         }
     }
 }

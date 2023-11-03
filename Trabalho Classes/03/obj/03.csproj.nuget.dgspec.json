@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fiscal4\\Workspace\\puc_aed\\Trabalho Classes\\01\\01.csproj": {}
+    "C:\\Users\\fiscal4\\Workspace\\puc_aed\\Trabalho Classes\\03\\03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fiscal4\\Workspace\\puc_aed\\Trabalho Classes\\01\\01.csproj": {
+    "C:\\Users\\fiscal4\\Workspace\\puc_aed\\Trabalho Classes\\03\\03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fiscal4\\Workspace\\puc_aed\\Trabalho Classes\\01\\01.csproj",
-        "projectName": "01",
-        "projectPath": "C:\\Users\\fiscal4\\Workspace\\puc_aed\\Trabalho Classes\\01\\01.csproj",
+        "projectUniqueName": "C:\\Users\\fiscal4\\Workspace\\puc_aed\\Trabalho Classes\\03\\03.csproj",
+        "projectName": "03",
+        "projectPath": "C:\\Users\\fiscal4\\Workspace\\puc_aed\\Trabalho Classes\\03\\03.csproj",
         "packagesPath": "C:\\Users\\fiscal4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fiscal4\\Workspace\\puc_aed\\Trabalho Classes\\01\\obj\\",
+        "outputPath": "C:\\Users\\fiscal4\\Workspace\\puc_aed\\Trabalho Classes\\03\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fiscal4\\AppData\\Roaming\\NuGet\\NuGet.Config"
