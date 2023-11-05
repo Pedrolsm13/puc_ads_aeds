@@ -21,7 +21,7 @@ namespace AED
             //listadupla.imprimeQuantidade();
             //listadupla.imprimeUltimo();
             object elemento1 = Console.ReadLine();
-            Console.WriteLine(listadupla.primeiraOcorrenciaDe(elemento1));
+            Console.WriteLine(listadupla.ultimaOcorrenciaDe(elemento1));
 
         }
     }
@@ -94,9 +94,22 @@ namespace AED
         public int primeiraOcorrenciaDe(object elemento){
                 int indice = -1, i = 1;
                 CCeluladup aux = First.Prox;
-                while(aux != null && !aux.Item.Equals(elemento)){
+                while(aux.Prox != null && !aux.Prox.Item.Equals(elemento)){
                     aux = aux.Prox;
                     i++;
+                }
+                if(aux.Prox != null && aux.Prox.Item.Equals(elemento)){
+                    i++;
+                    return i;
+                }
+                return indice;
+        }
+        public int ultimaOcorrenciaDe(object elemento){
+                int indice = -1, i = Count;
+                CCeluladup aux = Last;
+                while(aux.Ant.Item != null && !aux.Item.Equals(elemento)){
+                    aux = aux.Ant;
+                    i--;
                 }
                 if(aux != null && aux.Item.Equals(elemento)){
                     return i;

@@ -8,21 +8,25 @@ namespace AED
     class Program
     {
         public static void Main(string [] args){
-            CListaDup listadupla = new CListaDup();
+            CListaDup TAD = new CListaDup();
             object elemento;
             //insere os objetos na lista
             string [] linha = Console.ReadLine().Split(';');
             for (int j = 0; j < linha.Length; j++){
                 elemento = linha[j];
-                listadupla.InsereFim(elemento);
+                TAD.InsereFim(elemento);
             }
 
-            listadupla.ImprimeFormatoLista();
-            //listadupla.imprimeQuantidade();
-            //listadupla.imprimeUltimo();
-            object elemento1 = Console.ReadLine();
-            Console.WriteLine(listadupla.primeiraOcorrenciaDe(elemento1));
+            TAD.ImprimeFormatoLista();
+            TAD.imprimeQuantidade();
+            TAD.imprimeUltimo();
+            int fd = 5;
+            TAD.RemovePos(fd);
 
+
+            TAD.ImprimeFormatoLista();
+            TAD.imprimeQuantidade();
+            TAD.imprimeUltimo();
         }
     }
     class CCelula
@@ -43,7 +47,6 @@ namespace AED
             Prox = ProxCel;
         }
     }
-
     class CCeluladup{
         public object Item;
         public CCeluladup Prox;
@@ -64,7 +67,6 @@ namespace AED
             Prox = ProxCel;
         }
     }
-
     class CListaDup{
         private CCeluladup First;
         private CCeluladup Last;
@@ -94,14 +96,46 @@ namespace AED
         public int primeiraOcorrenciaDe(object elemento){
                 int indice = -1, i = 1;
                 CCeluladup aux = First.Prox;
-                while(aux != null && !aux.Item.Equals(elemento)){
+                while(aux.Prox != null && !aux.Prox.Item.Equals(elemento)){
                     aux = aux.Prox;
                     i++;
+                }
+                if(aux.Prox != null && aux.Prox.Item.Equals(elemento)){
+                    i++;
+                    return i;
+                }
+                return indice;
+        }
+        public int ultimaOcorrenciaDe(object elemento){
+                int indice = -1, i = Count;
+                CCeluladup aux = Last;
+                while(aux.Ant.Item != null && !aux.Item.Equals(elemento)){
+                    aux = aux.Ant;
+                    i--;
                 }
                 if(aux != null && aux.Item.Equals(elemento)){
                     return i;
                 }
                 return indice;
+        }
+        public void RemovePos(int n){
+            if(Count > 0 && n > 0 && n <= Count){
+                int i = 0;
+                CCeluladup aux = First;
+                while(aux != null && i != n){
+                    aux = aux.Prox;
+                    i++;
+                }
+                if(aux.Prox != null){
+                aux.Ant.Prox = aux.Prox;
+                aux.Prox.Ant = aux.Ant;
+                }
+                else{
+                    Last = aux.Ant;
+                    aux.Ant.Prox = aux.Prox;
+                }
+                Count--;                    
+            }
         }
         public void ImprimeFormatoLista(){
             Console.Write("<-[/]->");
@@ -116,7 +150,6 @@ namespace AED
             Console.WriteLine($"ultimo = [" + Last.Item + "]->");
         }
     }
-
     class CLista
     {
         private CCelula First;
@@ -205,6 +238,20 @@ namespace AED
                 Count++;
             }
         }
+        public void RemovePos(int n){
+            if(Count > 0 && n > 0 && n <= Count){
+                int i = 0;
+                CCelula aux = First;
+                while(aux != null && i != n-1){
+                    aux = aux.Prox;
+                    i++;
+                }
+                aux.Prox = aux.Prox.Prox;
+                if(aux.Prox == null)
+                    Last = aux;
+                Count--;                    
+            }
+        }
         public void ImprimeFormatoLista(){
             Console.Write("[/]->");
             for (CCelula aux = First.Prox; aux != null; aux = aux.Prox)
@@ -218,7 +265,6 @@ namespace AED
             Console.WriteLine($"ultimo = [" + Last.Item + "]->");
         }
     }
-
     class CFila{
         private CCelula First;
         private CCelula Last;
@@ -299,7 +345,6 @@ namespace AED
             Console.WriteLine($"quantidade = {Count}");
         }
     }
-
     class RandomQueue{
         private CCelula First;
         private CCelula Last;
@@ -350,6 +395,60 @@ namespace AED
             Console.Write("[/]->");
             for (CCelula aux = First.Prox; aux != null; aux = aux.Prox)
                 Console.Write("[" + aux.Item + "]->");
+            Console.WriteLine("null");
+        }
+        public void imprimeQuantidade(){
+            Console.WriteLine($"quantidade = {Count}");
+        }
+        public void imprimeUltimo(){
+            Console.WriteLine($"ultimo = [" + Last.Item + "]->");
+        }
+    }
+    class Deque{
+        private CCeluladup First;
+        private CCeluladup Last;
+        private int Count = 0;
+        public Deque(){
+            First = new CCeluladup();
+            Last = First;
+        }
+        public bool isEmpty(){
+            return First == Last;
+        }
+        public int size(){
+            return Count;
+        }
+        public void pushLeft(object item){
+            First.Prox = new CCeluladup(First, item, First.Prox);
+            if(First.Prox.Prox != null)
+                First.Prox.Prox.Ant = First.Prox;
+            else
+                Last = First.Prox;
+            Count++;
+        }
+        public void pushRight(object item){
+            Last.Prox = new CCeluladup(Last, item);
+            Last = Last.Prox;
+            Count++;
+        }
+        public object popLeft(){
+            object imprime = First.Prox.Item;
+            First.Prox = First.Prox.Prox;
+            First.Prox.Ant = First;
+            Count--;
+            return imprime;
+        }
+        public object popRight(){
+            object imprime = Last.Item;
+            Last = Last.Ant;
+            Last.Prox = Last.Prox.Prox;
+            Count--;
+            return imprime;
+        }
+        public void ImprimeFormatoLista(){
+            Console.Write("<-[/]->");
+            for (CCeluladup aux = First.Prox; aux != null; aux = aux.Prox)
+                Console.Write("<-[" + aux.Ant.Item + "<-[" + aux.Item + "]->");
             Console.WriteLine("null");
         }
         public void imprimeQuantidade(){
