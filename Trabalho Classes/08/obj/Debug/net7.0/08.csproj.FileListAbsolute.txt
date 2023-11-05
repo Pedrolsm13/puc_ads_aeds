@@ -1,0 +1,15 @@
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\bin\Debug\net7.0\08.exe
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\bin\Debug\net7.0\08.deps.json
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\bin\Debug\net7.0\08.runtimeconfig.json
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\bin\Debug\net7.0\08.dll
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\bin\Debug\net7.0\08.pdb
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\obj\Debug\net7.0\08.csproj.AssemblyReference.cache
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\obj\Debug\net7.0\08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\obj\Debug\net7.0\08.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\obj\Debug\net7.0\08.AssemblyInfo.cs
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\obj\Debug\net7.0\08.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\obj\Debug\net7.0\08.dll
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\obj\Debug\net7.0\refint\08.dll
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\obj\Debug\net7.0\08.pdb
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\obj\Debug\net7.0\08.genruntimeconfig.cache
+C:\Users\fiscal4\Workspace\puc_aed\Trabalho Classes\08\obj\Debug\net7.0\ref\08.dll

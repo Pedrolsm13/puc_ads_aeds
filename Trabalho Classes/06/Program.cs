@@ -8,34 +8,31 @@ namespace AED
     class Program
     {
         public static void Main(string [] args){
-            CListaDup A = new CListaDup ();
-            CListaDup B = new CListaDup ();
-            CListaDup AmaisB = new CListaDup(); 
+            CPilha A = new CPilha ();
+            CPilha B = new CPilha ();
+            CPilha AmaisB = new CPilha(); 
             object elemento;
             //insere os objetos na lista
             string [] linha = Console.ReadLine().Split(';');
             for (int j = 0; j < linha.Length; j++){
                 elemento = linha[j];
-                A.InsereFim(elemento);
+                A.Empilha(elemento);
             }
             string [] linha1 = Console.ReadLine().Split(';');
             for (int j = 0; j < linha1.Length; j++){
                 elemento = linha1[j];
-                B.InsereFim(elemento);
+                B.Empilha(elemento);
             }
 
             A.ImprimeFormatoLista();
             A.imprimeQuantidade();
-            A.imprimeUltimo();
             
             B.ImprimeFormatoLista();
             B.imprimeQuantidade();
-            B.imprimeUltimo();
 
-            AmaisB.ConcatenaLD(A, B);
+            AmaisB.ConcatenaPilha(A, B);
             AmaisB.ImprimeFormatoLista();
             AmaisB.imprimeQuantidade();
-            AmaisB.imprimeUltimo();
 
         }
     }
@@ -57,6 +54,7 @@ namespace AED
             Prox = ProxCel;
         }
     }
+
     class CCeluladup{
         public object Item;
         public CCeluladup Prox;
@@ -117,6 +115,7 @@ namespace AED
             Console.WriteLine($"ultimo = [" + Last.Item + "]->");
         }
     }
+
     class CLista
     {
         private CCelula First;
@@ -216,6 +215,87 @@ namespace AED
         }
         public void imprimeUltimo(){
             Console.WriteLine($"ultimo = [" + Last.Item + "]->");
+        }
+    }
+
+    class CFila{
+        private CCelula First;
+        private CCelula Last;
+        private int Count = 0;
+        public CFila(){
+            First = new CCelula();
+            Last = First;
+        }
+        public bool vazia(){
+            return First == Last;
+        }
+        public void Enfileira(object Valor){
+            Last.Prox = new CCelula(Valor);
+            Last = Last.Prox;
+            Count++;
+        }
+        public void ConcatenaFila(CFila F1, CFila F2){
+            First = F1.First;
+            Last = F1.Last;
+            Last.Prox = F2.First.Prox;
+            Last = F2.Last;
+            Count = F1.Count + F2.Count;
+        }
+        public void ImprimeFormatoLista(){
+            Console.Write("[/]->");
+            for (CCelula aux = First.Prox; aux != null; aux = aux.Prox)
+                Console.Write("[" + aux.Item + "]->");
+            Console.WriteLine("null");
+        }
+        public void imprimeQuantidade(){
+            Console.WriteLine($"quantidade = {Count}");
+        }
+        public void imprimeUltimo(){
+            Console.WriteLine($"ultimo = [" + Last.Item + "]->");
+        }
+    }
+    class CPilha{
+        private CCelula Topo;
+        private int Count;
+        public CPilha(){
+
+        }
+        public bool EstaVazia()
+        {
+            return Topo == null;
+        }
+        public void Empilha(object valor){
+            Topo = new CCelula(valor, Topo);
+            Count++;
+        }
+        public void ConcatenaPilha(CPilha P1, CPilha P2){
+            Topo = P1.Topo;
+            Count = P1.Count + P2.Count;
+            CCelula aux = P2.Topo;
+            while (aux.Prox != null){
+                aux = aux.Prox;
+            }
+            aux.Prox = Topo;
+            Topo = P2.Topo;
+            /*CPilha Pilha = new CPilha();
+            while (P2.Topo != null)
+            {
+                Pilha.Topo = new CCelula(P2.Topo.Item, Pilha.Topo);
+                P2.Topo = P2.Topo.Prox;
+            }
+            while (Pilha.Topo != null)
+            {
+                Topo = new CCelula(Pilha.Topo.Item, Topo);
+                Pilha.Topo = Pilha.Topo.Prox;
+            }*/
+        }
+        public void ImprimeFormatoLista(){
+            for (CCelula aux = Topo; aux != null; aux = aux.Prox)
+                Console.Write("<-[" + aux.Item + "]");
+            Console.WriteLine(" ");
+        }
+        public void imprimeQuantidade(){
+            Console.WriteLine($"quantidade = {Count}");
         }
     }
 }
