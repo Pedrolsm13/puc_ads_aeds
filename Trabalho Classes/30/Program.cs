@@ -502,7 +502,14 @@ namespace AED
             if(aux != null && aux.Key.Equals(chave))
                 return aux.Value;
             else
-                return Last.Prox;
+                return null;
+            /*while(aux != null){
+                if(aux.Key.Equals(chave))
+                    return aux.Value;
+                aux = aux.Prox;
+            }
+            else
+                return null;*/
         }
         public void ImprimeFormatoLista(){
             Console.Write("[/]->");
