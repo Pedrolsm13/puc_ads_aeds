@@ -5,8 +5,7 @@ using System.Runtime.InteropServices;
 
 namespace AED
 {
-    class Program
-    {
+    class Program{
         public static void Main(string [] args){
             CDicionario TAD = new CDicionario();
             int entrada = 20;
@@ -18,18 +17,14 @@ namespace AED
                 linha = Console.ReadLine().Split(' ');
                 elemento = linha[0];
                 elemento1 = linha[1];
-                TAD.adiciona(elemento, elemento1);
+                TAD.adiciona(elemento1, elemento);
             }
-
             TAD.ImprimeFormatoLista();
             TAD.imprimeQuantidade();
             TAD.imprimeUltimo();
-
             string linhanova = Console.ReadLine();
             object elemento3 = linhanova;
-
             Console.WriteLine(TAD.recebeValor(elemento3));
-
         }
     }
     class CCelula{
@@ -500,11 +495,10 @@ namespace AED
             Count++;
         }
         public object recebeValor(object chave){
-            CCelulaDicionario aux = First;
-            while(aux.Prox != null && !aux.Prox.Key.Equals(chave)){
+            CCelulaDicionario aux = First.Prox;
+            while(aux != null && !aux.Key.Equals(chave)){
                 aux = aux.Prox;
             }
-            Console.WriteLine(aux.Value);
             if(aux != null && aux.Key.Equals(chave))
                 return aux.Value;
             else
