@@ -1,0 +1,14 @@
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\bin\Debug\net7.0\32.exe
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\bin\Debug\net7.0\32.deps.json
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\bin\Debug\net7.0\32.runtimeconfig.json
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\bin\Debug\net7.0\32.dll
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\bin\Debug\net7.0\32.pdb
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\obj\Debug\net7.0\32.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\obj\Debug\net7.0\32.AssemblyInfoInputs.cache
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\obj\Debug\net7.0\32.AssemblyInfo.cs
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\obj\Debug\net7.0\32.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\obj\Debug\net7.0\32.dll
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\obj\Debug\net7.0\refint\32.dll
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\obj\Debug\net7.0\32.pdb
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\obj\Debug\net7.0\32.genruntimeconfig.cache
+C:\Users\pedro\Workspace\puc_aed\Trabalho Classes\32\obj\Debug\net7.0\ref\32.dll

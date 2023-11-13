@@ -8,7 +8,7 @@ namespace AED
     class Program{
         public static void Main(string [] args){
             CDicionario TAD = new CDicionario();
-            int entrada = 20;
+            int entrada = 25;
             object elemento;
             object elemento1;
             //insere os objetos na lista
