@@ -1,0 +1,15 @@
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\bin\Debug\net7.0\TP4-Episodio VI.exe
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\bin\Debug\net7.0\TP4-Episodio VI.deps.json
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\bin\Debug\net7.0\TP4-Episodio VI.runtimeconfig.json
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\bin\Debug\net7.0\TP4-Episodio VI.dll
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\bin\Debug\net7.0\TP4-Episodio VI.pdb
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\obj\Debug\net7.0\TP4-Episodio VI.csproj.AssemblyReference.cache
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\obj\Debug\net7.0\TP4-Episodio VI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\obj\Debug\net7.0\TP4-Episodio VI.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\obj\Debug\net7.0\TP4-Episodio VI.AssemblyInfo.cs
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\obj\Debug\net7.0\TP4-Episodio VI.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\obj\Debug\net7.0\TP4-Episodio VI.dll
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\obj\Debug\net7.0\refint\TP4-Episodio VI.dll
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\obj\Debug\net7.0\TP4-Episodio VI.pdb
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\obj\Debug\net7.0\TP4-Episodio VI.genruntimeconfig.cache
+C:\Users\fiscal4\Workspace\puc_aed\TP4-Episodio VI\obj\Debug\net7.0\ref\TP4-Episodio VI.dll
