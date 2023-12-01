@@ -1,0 +1,15 @@
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\bin\Debug\net7.0\P2-Star Trek.exe
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\bin\Debug\net7.0\P2-Star Trek.deps.json
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\bin\Debug\net7.0\P2-Star Trek.runtimeconfig.json
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\bin\Debug\net7.0\P2-Star Trek.dll
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\bin\Debug\net7.0\P2-Star Trek.pdb
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\obj\Debug\net7.0\P2-Star Trek.csproj.AssemblyReference.cache
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\obj\Debug\net7.0\P2-Star Trek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\obj\Debug\net7.0\P2-Star Trek.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\obj\Debug\net7.0\P2-Star Trek.AssemblyInfo.cs
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\obj\Debug\net7.0\P2-Star Trek.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\obj\Debug\net7.0\P2-Star Trek.dll
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\obj\Debug\net7.0\refint\P2-Star Trek.dll
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\obj\Debug\net7.0\P2-Star Trek.pdb
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\obj\Debug\net7.0\P2-Star Trek.genruntimeconfig.cache
+C:\Users\fiscal4\Workspace\puc_aed\P2-Star Trek\obj\Debug\net7.0\ref\P2-Star Trek.dll

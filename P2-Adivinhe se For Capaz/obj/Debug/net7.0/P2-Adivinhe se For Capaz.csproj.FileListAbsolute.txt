@@ -1,0 +1,15 @@
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\bin\Debug\net7.0\P2-Adivinhe se For Capaz.exe
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\bin\Debug\net7.0\P2-Adivinhe se For Capaz.deps.json
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\bin\Debug\net7.0\P2-Adivinhe se For Capaz.runtimeconfig.json
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\bin\Debug\net7.0\P2-Adivinhe se For Capaz.dll
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\bin\Debug\net7.0\P2-Adivinhe se For Capaz.pdb
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\obj\Debug\net7.0\P2-Adivinhe se For Capaz.csproj.AssemblyReference.cache
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\obj\Debug\net7.0\P2-Adivinhe se For Capaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\obj\Debug\net7.0\P2-Adivinhe se For Capaz.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\obj\Debug\net7.0\P2-Adivinhe se For Capaz.AssemblyInfo.cs
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\obj\Debug\net7.0\P2-Adivinhe se For Capaz.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\obj\Debug\net7.0\P2-Adivinhe se For Capaz.dll
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\obj\Debug\net7.0\refint\P2-Adivinhe se For Capaz.dll
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\obj\Debug\net7.0\P2-Adivinhe se For Capaz.pdb
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\obj\Debug\net7.0\P2-Adivinhe se For Capaz.genruntimeconfig.cache
+C:\Users\fiscal4\Workspace\puc_aed\P2-Adivinhe se For Capaz\obj\Debug\net7.0\ref\P2-Adivinhe se For Capaz.dll

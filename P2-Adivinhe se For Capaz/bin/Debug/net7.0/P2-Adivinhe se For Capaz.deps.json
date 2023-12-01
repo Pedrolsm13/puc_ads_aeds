@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "P2-Adivinhe se For Capaz/1.0.0": {
+        "runtime": {
+          "P2-Adivinhe se For Capaz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P2-Adivinhe se For Capaz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

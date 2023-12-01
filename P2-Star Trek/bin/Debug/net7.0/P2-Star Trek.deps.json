@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "P2-Star Trek/1.0.0": {
+        "runtime": {
+          "P2-Star Trek.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P2-Star Trek/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

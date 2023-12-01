@@ -1,0 +1,44 @@
+Descrição
+Star Trek
+
+
+Star Trek (Brasil: Jornada nas Estrelas / Portugal: O Caminho das Estrelas) é uma franquia de entretenimento do tipo space opera norte-americana criada por Gene Roddenberry. A franquia iniciou-se como uma série de televisão em 1966, originalmente chamada Star Trek mas posteriormente renomeada para Star Trek: The Original Series. Essa série levou à criação de histórias derivadas: Star Trek: The Animated Series, Star Trek: The Next Generation, Star Trek: Deep Space Nine, Star Trek: Voyager, Star Trek: Enterprise, Star Trek: Discovery, Star Trek: Short Treks, Star Trek: Picard, Star Trek: Lower Decks, Star Trek: Prodigy e Star Trek: Strange New Worlds.
+
+
+A expansão da franquia com Alex Kurtzman começou em junho de 2018, e Mike McMahan foi contratado para a equipe do Lower Decks em outubro daquele ano, quando encomendou-se duas temporadas para série. O trabalho de animação começou em fevereiro seguinte e passou a ocorrer remotamente em março de 2020 devido à Pandemia de COVID-19. A primeira temporada de Star Trek: Lower Decks foi lançada no dia 6 de agosto de 2020 e consiste em 10 episódios.
+
+image
+
+As séries de televisão são consideradas parte da mitologia de Star Trek, apesar de existir um debate acerca da posição de The Animated Series no cânone da franquia. Em 2017 veio ao ar a sétima série de televisão derivada, sob o título Star Trek: Discovery filmada pelos studios CBS. O cânone de Star Trek também inclui uma série de filmes. Apesar da resposta da crítica ter variado de série para série e filme para filme, Star Trek já venceu e foi indicado a vários prêmios e honrarias. O sucesso das séries de televisão e dos filmes levou a uma ampla gama de outros spin-offs, como jogos eletrônicos, romances, brinquedos, uma atração temática em Las Vegas e pelo menos duas exibições em museus. Desde então a franquia se tornou um fenômeno cultural, iniciou a criação da língua klingon, adquiriu uma grande base de fãs e já foi referenciada e parodiada inúmeras vezes na cultura popular.
+
+Nesta questão você deverá ler uma série de personagens de Star Trek, criar uma classe StarTrek e guardar os seguintes atributos(todos privados):
+
+nome (string),
+raca (string),
+serie(string)
+
+Deverá criar também um vetor de personagens do Star Trek e armazenar cada um para responder às consultas feitas
+
+MAS PERAÍ !!! ESSA PROVA TÁ IGUAL À OUTRA ???
+
+Calma ...
+Tem uma ligeira diferença. Veja a entrada e a saída
+
+
+Entrada
+
+
+Deverá ser lido um valor P de personagens. A seguir virão P linhas contendo cada os dados que serão os mesmos e na ordem dos atributos da classe, separados por ponto-e-vírgula (;)
+
+
+
+
+Saída
+
+Deverá ser exibido a lista de personagens em ordem crescente de nomes da seguinte forma:
+
+[nome]-[raça]-[série]
+
+Veja no modelo de saída abaixo
+
+ATENÇÃO: nesta questão não vale apenas gerar o arquivo de saída e tirar 100% no Verde. O seu código precisa ter a classe conforme exigido pelo enunciado. O professor irá inspecionar o seu código.
