@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fiscal4\\Workspace\\puc_aeds\\TP3-Episodio-V\\TP3-Episodio-V.csproj",
+      "projectUniqueName": "C:\\Users\\fiscal4\\Workspace\\puc_aed\\TP3-Episodio-V\\TP3-Episodio-V.csproj",
       "projectName": "TP3-Episodio-V",
-      "projectPath": "C:\\Users\\fiscal4\\Workspace\\puc_aeds\\TP3-Episodio-V\\TP3-Episodio-V.csproj",
+      "projectPath": "C:\\Users\\fiscal4\\Workspace\\puc_aed\\TP3-Episodio-V\\TP3-Episodio-V.csproj",
       "packagesPath": "C:\\Users\\fiscal4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fiscal4\\Workspace\\puc_aeds\\TP3-Episodio-V\\obj\\",
+      "outputPath": "C:\\Users\\fiscal4\\Workspace\\puc_aed\\TP3-Episodio-V\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fiscal4\\AppData\\Roaming\\NuGet\\NuGet.Config"

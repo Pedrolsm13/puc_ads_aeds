@@ -80,8 +80,8 @@ class Program
 class Personagem
 {
     public string nome { get; private set; }
-    public double peso = 0.0;
-    public int altura = 0;
+    public int altura { get; private set; }
+    public double peso { get; private set; }
     public string corDoCabelo { get; private set; }
     public string corDaPele { get; private set; }
     public string corDosOlhos { get; private set; }
@@ -91,10 +91,14 @@ class Personagem
 
     public Personagem(string linhaP)
     {
-        string[] valores = linhaP.Split(";");
-        int.TryParse(valores[1], out this.altura);
-        double.TryParse(valores[2], out this.peso);
+        string[] valores = linhaP.Split(';');
+        int alt = 0;
+        double pes = 0.0;
+        int.TryParse(valores[1], out alt);
+        double.TryParse(valores[2], out pes);
         this.nome = valores[0];
+        this.altura = alt;
+        this.peso = pes;
         this.corDoCabelo = valores[3];
         this.corDaPele = valores[4];
         this.corDosOlhos = valores[5];

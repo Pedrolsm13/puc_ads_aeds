@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6PdLsPoEq0iPY+8nni6w6K5XfunKqr9GkZJqq0561s4rIqawWR8uBi9h2hFPQrtCXAPnewDFpwqFcjj/dHWo3A==",
+  "dgSpecHash": "cVuQP9dAdyryERDgB3gcQ2gzg1gElJay+HZJowUehsTa4CED2+wV1RVplGOlRLJknzoHlJSTEJo/0ypAiU85SA==",
   "success": true,
-  "projectFilePath": "/home/runner/TP2-Episodio-IV/main.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\fiscal4\\Workspace\\puc_aed\\TP2-Episodio-IV\\main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\fiscal4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
