@@ -1,0 +1,30 @@
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\bin\Debug\net7.0\Pre-Prova 3.exe
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\bin\Debug\net7.0\Pre-Prova 3.deps.json
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\bin\Debug\net7.0\Pre-Prova 3.runtimeconfig.json
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\bin\Debug\net7.0\Pre-Prova 3.dll
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\bin\Debug\net7.0\Pre-Prova 3.pdb
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\obj\Debug\net7.0\Pre-Prova 3.csproj.AssemblyReference.cache
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\obj\Debug\net7.0\Pre-Prova 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\obj\Debug\net7.0\Pre-Prova 3.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\obj\Debug\net7.0\Pre-Prova 3.AssemblyInfo.cs
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\obj\Debug\net7.0\Pre-Prova 3.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\obj\Debug\net7.0\Pre-Prova 3.dll
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\obj\Debug\net7.0\refint\Pre-Prova 3.dll
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\obj\Debug\net7.0\Pre-Prova 3.pdb
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\obj\Debug\net7.0\Pre-Prova 3.genruntimeconfig.cache
+C:\Users\fiscal4\Workspace\puc_aed\Pre-Prova 3\obj\Debug\net7.0\ref\Pre-Prova 3.dll
+C:\Users\fiscal4\Workspace\puc_aed\AVL\bin\Debug\net7.0\Pre-Prova 3.exe
+C:\Users\fiscal4\Workspace\puc_aed\AVL\bin\Debug\net7.0\Pre-Prova 3.deps.json
+C:\Users\fiscal4\Workspace\puc_aed\AVL\bin\Debug\net7.0\Pre-Prova 3.runtimeconfig.json
+C:\Users\fiscal4\Workspace\puc_aed\AVL\bin\Debug\net7.0\Pre-Prova 3.dll
+C:\Users\fiscal4\Workspace\puc_aed\AVL\bin\Debug\net7.0\Pre-Prova 3.pdb
+C:\Users\fiscal4\Workspace\puc_aed\AVL\obj\Debug\net7.0\Pre-Prova 3.csproj.AssemblyReference.cache
+C:\Users\fiscal4\Workspace\puc_aed\AVL\obj\Debug\net7.0\Pre-Prova 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Workspace\puc_aed\AVL\obj\Debug\net7.0\Pre-Prova 3.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\AVL\obj\Debug\net7.0\Pre-Prova 3.AssemblyInfo.cs
+C:\Users\fiscal4\Workspace\puc_aed\AVL\obj\Debug\net7.0\Pre-Prova 3.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Workspace\puc_aed\AVL\obj\Debug\net7.0\Pre-Prova 3.dll
+C:\Users\fiscal4\Workspace\puc_aed\AVL\obj\Debug\net7.0\refint\Pre-Prova 3.dll
+C:\Users\fiscal4\Workspace\puc_aed\AVL\obj\Debug\net7.0\Pre-Prova 3.pdb
+C:\Users\fiscal4\Workspace\puc_aed\AVL\obj\Debug\net7.0\Pre-Prova 3.genruntimeconfig.cache
+C:\Users\fiscal4\Workspace\puc_aed\AVL\obj\Debug\net7.0\ref\Pre-Prova 3.dll
