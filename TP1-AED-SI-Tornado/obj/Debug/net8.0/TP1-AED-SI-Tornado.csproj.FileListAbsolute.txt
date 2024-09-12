@@ -1,0 +1,14 @@
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\bin\Debug\net8.0\TP1-AED-SI-Tornado.exe
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\bin\Debug\net8.0\TP1-AED-SI-Tornado.deps.json
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\bin\Debug\net8.0\TP1-AED-SI-Tornado.runtimeconfig.json
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\bin\Debug\net8.0\TP1-AED-SI-Tornado.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\bin\Debug\net8.0\TP1-AED-SI-Tornado.pdb
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\obj\Debug\net8.0\TP1-AED-SI-Tornado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\obj\Debug\net8.0\TP1-AED-SI-Tornado.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\obj\Debug\net8.0\TP1-AED-SI-Tornado.AssemblyInfo.cs
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\obj\Debug\net8.0\TP1-AED-SI-Tornado.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\obj\Debug\net8.0\TP1-AED-SI-Tornado.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\obj\Debug\net8.0\refint\TP1-AED-SI-Tornado.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\obj\Debug\net8.0\TP1-AED-SI-Tornado.pdb
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\obj\Debug\net8.0\TP1-AED-SI-Tornado.genruntimeconfig.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Tornado\obj\Debug\net8.0\ref\TP1-AED-SI-Tornado.dll

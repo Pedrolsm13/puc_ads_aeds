@@ -1,0 +1,14 @@
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\bin\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.exe
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\bin\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.deps.json
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\bin\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.runtimeconfig.json
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\bin\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\bin\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.pdb
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\obj\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\obj\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\obj\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.AssemblyInfo.cs
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\obj\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\obj\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\obj\Debug\net8.0\refint\TP1-AED-SI-Descobrindo Senha.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\obj\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.pdb
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\obj\Debug\net8.0\TP1-AED-SI-Descobrindo Senha.genruntimeconfig.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Descobrindo Senha\obj\Debug\net8.0\ref\TP1-AED-SI-Descobrindo Senha.dll

@@ -1,0 +1,28 @@
+Competição
+
+
+A maioria dos programadores que chegam a escrever competições com exercícios de programação concordam em quatro características que toda competição deve alcançar. Embora nem todas sejam sempre alcançadas, quanto mais melhor. As características são as seguintes:
+
+1 - Ninguém resolveu todos os problemas.
+2 - Todo problema foi resolvido por pelo menos uma pessoa (não necessariamente a mesma).
+3 - Não há nenhum problema resolvido por todos.
+4 - Todos resolveram ao menos um problema (não necessariamente o mesmo).
+
+
+Rafael organizou uma competição alguns dias atrás, e está preocupado com quantas dessas características ele conseguiu alcançar com a competição.
+
+Dadas as informações sobre a competição, com o número de participantes, número de problemas, e qual participante resolveu quais problemas, descubra o número de características que foram alcançadas nesta competição.
+
+
+Entrada
+
+Haverá diversos casos de teste. Cada caso de teste inicia com dois inteiros N e M (3 ≤ N, M ≤ 100), indicando, respectivamente, o número de participantes e o número de problemas.
+
+Em seguida, haverá N linhas com M inteiros cada, onde o inteiro da linha i e coluna j é 1 caso o competidor i resolveu o problema j, ou 0 caso contrário.
+
+O último caso de teste é indicado quando N = M = 0, o qual não deverá ser processado.
+
+
+Saída
+
+Para cada caso de teste, imprima uma linha contendo um inteiro, representando quantas das características citadas foram alcançadas na competição.

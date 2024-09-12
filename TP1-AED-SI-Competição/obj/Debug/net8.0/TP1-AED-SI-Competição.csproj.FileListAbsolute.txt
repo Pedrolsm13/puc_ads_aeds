@@ -1,0 +1,14 @@
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\bin\Debug\net8.0\TP1-AED-SI-Competição.exe
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\bin\Debug\net8.0\TP1-AED-SI-Competição.deps.json
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\bin\Debug\net8.0\TP1-AED-SI-Competição.runtimeconfig.json
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\bin\Debug\net8.0\TP1-AED-SI-Competição.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\bin\Debug\net8.0\TP1-AED-SI-Competição.pdb
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\obj\Debug\net8.0\TP1-AED-SI-Competição.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\obj\Debug\net8.0\TP1-AED-SI-Competição.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\obj\Debug\net8.0\TP1-AED-SI-Competição.AssemblyInfo.cs
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\obj\Debug\net8.0\TP1-AED-SI-Competição.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\obj\Debug\net8.0\TP1-AED-SI-Competição.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\obj\Debug\net8.0\refint\TP1-AED-SI-Competição.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\obj\Debug\net8.0\TP1-AED-SI-Competição.pdb
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\obj\Debug\net8.0\TP1-AED-SI-Competição.genruntimeconfig.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Competição\obj\Debug\net8.0\ref\TP1-AED-SI-Competição.dll

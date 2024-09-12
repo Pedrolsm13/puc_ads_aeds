@@ -1,0 +1,14 @@
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\bin\Debug\net8.0\TP1-AED-SI-Libertadores.exe
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\bin\Debug\net8.0\TP1-AED-SI-Libertadores.deps.json
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\bin\Debug\net8.0\TP1-AED-SI-Libertadores.runtimeconfig.json
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\bin\Debug\net8.0\TP1-AED-SI-Libertadores.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\bin\Debug\net8.0\TP1-AED-SI-Libertadores.pdb
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\obj\Debug\net8.0\TP1-AED-SI-Libertadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\obj\Debug\net8.0\TP1-AED-SI-Libertadores.AssemblyInfoInputs.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\obj\Debug\net8.0\TP1-AED-SI-Libertadores.AssemblyInfo.cs
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\obj\Debug\net8.0\TP1-AED-SI-Libertadores.csproj.CoreCompileInputs.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\obj\Debug\net8.0\TP1-AED-SI-Libertadores.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\obj\Debug\net8.0\refint\TP1-AED-SI-Libertadores.dll
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\obj\Debug\net8.0\TP1-AED-SI-Libertadores.pdb
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\obj\Debug\net8.0\TP1-AED-SI-Libertadores.genruntimeconfig.cache
+C:\Users\fiscal4\Downloads\TP1-AED-SI-Libertadores\obj\Debug\net8.0\ref\TP1-AED-SI-Libertadores.dll
